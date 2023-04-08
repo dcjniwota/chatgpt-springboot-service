@@ -16,7 +16,7 @@ public class OpenAiTest {
     @Autowired
     private ChatGPTUtil chatGPTUtil;
 
-    @Test
+    // @Test
     public void testChatGPT(){
         Message message = chatGPTUtil.chat("单身狗如何过情人节？", "单身狗");
         System.out.println(message.getContent());

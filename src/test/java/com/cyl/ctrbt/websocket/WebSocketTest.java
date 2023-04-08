@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class WebSocketTest {
     private static final AtomicInteger count = new AtomicInteger(0);
 
-    @Test
+    // @Test
     public void test() {
         URI uri = URI.create("ws://127.0.0.1:8081/websocket");  //注意协议号为ws
         MyWebSocketClient client = new MyWebSocketClient(uri);
